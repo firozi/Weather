@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:linear-gradient(to right,#4E65FF ,#92EFFD);
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+.card{
+    padding:40px 0;
+    width: 400px;
+    margin: 100px auto 0;
+    background:linear-gradient(135deg,rgba(255,255,2555,0.1),rgba(255,255,255,0));
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    border-radius: 10px;
+}
+.input{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.search input{
+    margin: 5px;
+    padding: 10px;
+    padding-left: 30px;
+    height: 30px;
+    width: 230px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    border: none;
+    outline: 0;
+}
+.search button img{
+    width: 16px;
+    
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+.weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+}
+.weather img{
+    width: 150px;
+}
+.weather h1{
+    font-size: 70px;
+    margin: 0;
+}
+.weather h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    color: aliceblue;
+   
+}
+.humidity img{
+    width: 40px;
+    height: 40px;
+}
+.humidity{
+    display: flex;
+    gap: 10px;
+}
+.humidity-info{
+    font-size: 30px;
+    margin: 0;
+    font-weight: 100;
+}
+.wind-info{
+    font-size: 25px;
+    padding-bottom: 5px;
+} 
+.wind{
+    display: flex;
+    gap: 10px;
+}
+.wind img{
+    width: 40px;
+    height: 40px;
+}
